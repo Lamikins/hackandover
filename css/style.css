@@ -80,23 +80,6 @@ font-weight: 900;
 	}
 
 
-a.fa.fa-angle-down {
-	padding: 10px 15px;
-	color: #fff;
-	border: 2px solid #b4b4b4;
-	border-radius: 50%;
-	font-size: 24px;
-	margin-top: 200px;
-	transition: all 0.5s;
-}
-
-a.fa.fa-angle-down:hover{
-	background: #1697E8;
-	color: #ffffff;
-	border: 2px solid #1697E8;
-}
-
-
 #main{
 	background: url(../img/bg.jpg);
 	background-size: cover;
@@ -106,7 +89,7 @@ a.fa.fa-angle-down:hover{
 	color: #cfcfcf;
 }
 
-#about{
+#about, #schedule, #workshops{
 	background-color: whitesmoke;
 	background-size: cover;
 	background-position: center;
@@ -116,7 +99,7 @@ a.fa.fa-angle-down:hover{
     padding: 80px 0;
 }
 
-#about h1, #about h4, #about p{
+#about h1, #about h4, #about p, #schedule h1, #schedule h4, #schedule p, #schedule td, #workshops h1, #workshops h4, #workshops p{
     color: black;
 }
 
@@ -144,13 +127,39 @@ a.fa.fa-angle-down:hover{
 	color: #cfcfcf;
 }
 
-#sponsors h1{
+#sponsors h1, #judges h1, #judges h4, #register h1{
     color: white;
+}
+
+#judges{
+    background: url(../img/makerspace9.jpg);
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	color: #cfcfcf;
+}
+
+#register{
+    background: url(../img/makerspace5.jpg);
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	color: #cfcfcf;
 }
 
 .center-section{
     padding: 80px 0;
 }
+
+.backpad {
+    width: 800px;
+    border-radius: 6px;
+    padding: 20px;
+    line-height: 150%;
+    background-color: #ffffff;
+  }
 
 #sponsors .overlay{
 	background: -moz-linear-gradient(top,  rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.73) 17%, rgba(0,0,0,0.66) 35%, rgba(0,0,0,0.55) 62%, rgba(0,0,0,0.4) 100%); /* FF3.6+ */
@@ -180,7 +189,10 @@ a.fa.fa-angle-down:hover{
 nav#footer{
 	background: #222222;
 	color: #ffffff;
-	padding: 20px 0 15px 0;
+	padding: 10px 0 5px 0;
 }
 
-nav#footer .fnav{ vertical-align: middle;}
+#menu.solidify {
+  padding: 5px;
+  background-color: #090C19;
+}
