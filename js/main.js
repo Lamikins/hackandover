@@ -1,13 +1,11 @@
-//jQuery to collapse the navbar on scroll
 $(window).scroll(function() {
-    if ($(".navbar").offset().top > 50) {
-        $(".navbar-fixed-top").addClass("top-nav-collapse");
+    if ($(".navbar").offset().top > 670) {
+        $(".navbar-fixed-top").addClass("solidify");
     } else {
-        $(".navbar-fixed-top").removeClass("top-nav-collapse");
+        $(".navbar-fixed-top").removeClass("solidify");
     }
 });
 
-//jQuery for page scrolling feature - requires jQuery Easing plugin
 $(function() {
     $('a.page-scroll').bind('click', function(event) {
         var $anchor = $(this);
@@ -19,6 +17,7 @@ $(function() {
 });
 
 $(document).ready(function(){
+    
     $("#intro-bounce").Morphext({
         // The [in] animation type. Refer to Animate.css for a list of available animations.
         animation: "bounceIn",
@@ -27,7 +26,7 @@ $(document).ready(function(){
         // The delay between the changing of each phrase in milliseconds.
         speed: 2000,
         complete: function () {
-            console.log("hi");
         }
     });   
 })
+
