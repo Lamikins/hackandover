@@ -19,12 +19,6 @@ h1 strong{
 p{
 	font-family: 'Open Sans', sans-serif;
 }
-p.intro{
-	font-size: 16px;
-	margin: 12px 0 0;
-	line-height: 24px;
-	font-family: 'Open Sans', sans-serif;
-}
 
 a{ color: #1697E8;}
 a:hover,
@@ -38,6 +32,7 @@ a:focus{
 	padding: 20px;
 	transition: all 0.8s;
 }
+
 #menu.navbar-default {
 	background-color: rgba(248, 248, 248, 0);
 	border-color: rgba(231, 231, 231, 0);
@@ -82,11 +77,12 @@ font-weight: 900;
 
 #main{
 	background: url(../img/bg.jpg);
-	background-size: cover;
+	background-size: auto cover;
 	background-position: center;
 	background-attachment: fixed;
 	background-repeat: no-repeat;
 	color: #cfcfcf;
+
 }
 
 #about, #schedule, #workshops{
