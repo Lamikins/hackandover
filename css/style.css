@@ -150,12 +150,18 @@ font-weight: 900;
 }
 
 .backpad {
-    width: 800px;
+    width: 60%;
     border-radius: 6px;
     padding: 20px;
     line-height: 150%;
     background-color: #ffffff;
   }
+
+@media screen and (max-device-width: 480px) {
+  .responsive { 
+       min-height: 150px;
+  }
+}
 
 #sponsors .overlay{
 	background: -moz-linear-gradient(top,  rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.73) 17%, rgba(0,0,0,0.66) 35%, rgba(0,0,0,0.55) 62%, rgba(0,0,0,0.4) 100%); /* FF3.6+ */
