@@ -131,6 +131,7 @@ font-weight: 900;
     
     background: url(../img/makerspace9.jpg);
     background-size: cover;
+    overflow: auto;
 	background-position: center;
 	background-attachment: fixed;
 	background-repeat: no-repeat;
@@ -198,7 +199,8 @@ font-weight: 900;
 	background: -ms-linear-gradient(top,  rgba(0,0,0,0.8) 0%,rgba(0,0,0,0.73) 17%,rgba(0,0,0,0.66) 35%,rgba(0,0,0,0.55) 62%,rgba(0,0,0,0.4) 100%); /* IE10+ */
 	background: linear-gradient(to bottom,  rgba(0,0,0,0.8) 0%,rgba(0,0,0,0.73) 17%,rgba(0,0,0,0.66) 35%,rgba(0,0,0,0.55) 62%,rgba(0,0,0,0.4) 100%); /* W3C */
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cc000000', endColorstr='#66000000',GradientType=0 ); /* IE6-9 */
-	height: 1100px;
+    padding-bottom: 15px;
+	height: 100%;
 	background-attachment: fixed;
 }
 
