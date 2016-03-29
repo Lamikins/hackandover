@@ -162,6 +162,10 @@ font-weight: 900;
   .responsive { 
        min-height: 150px;
   }
+
+  h1{
+    font-size: 20px;
+  }
 }
 
 #sponsors .overlay{
