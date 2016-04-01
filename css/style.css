@@ -210,6 +210,10 @@ nav#footer{
 	padding: 10px 0 5px 0;
 }
 
+.help{
+    font-size:20px;
+}
+
 #menu.solidify {
   padding: 5px;
   background-color: #090C19;
